@@ -1,0 +1,27 @@
+{
+	"vswitches": [
+		{ "sub_br": "br-eth2", "out_port": "eth2"},
+		{ "sub_br": "br-ex",   "out_port": "eth3"},
+		{ "sub_br": "br-iot",  "out_port": "eth1"}
+	],
+
+	"linux_bridge": [
+		{ "name": "qvo07814714-08", "vm": "MGC-PL-3" }, 
+        { "name": "qvo0d01becc-86", "vm": "MGC-PL-4" }, 
+        { "name": "qvo16f340cb-78", "vm": "MGC-PL-4" }, 
+        { "name": "qvo17929294-12", "vm": "MGC-PL-3" }, 
+        { "name": "qvo69a792c9-4a", "vm": "MGC-PL-3" }, 
+        { "name": "qvo7e1c48f9-4e", "vm": "MGC-SC-2" }, 
+        { "name": "qvo89e934a2-14", "vm": "MGC-PL-3" },
+        { "name": "qvoa805f006-37", "vm": "MGC-SC-1" },
+        { "name": "qvoad0f4870-f5", "vm": "MGC-SC-1" },
+        { "name": "qvoaea11735-74", "vm": "MGC-SC-2" },
+        { "name": "qvob310e89f-24", "vm": "MGC-SC-1" },
+        { "name": "qvoc50fb0ad-e8", "vm": "MGC-PL-4" },
+        { "name": "qvoc5f72b59-1c", "vm": "MGC-SC-1" },
+        { "name": "qvocc196582-0f", "vm": "MGC-SC-2" },
+        { "name": "qvoe12fed42-3b", "vm": "MGC-SC-2" },
+        { "name": "qvofac8e764-88", "vm": "MGC-PL-4" }
+	],
+	"vms": ["MGC-SC-1", "MGC-SC-2", "MGC-PL-3", "MGC-PL-4"]
+}

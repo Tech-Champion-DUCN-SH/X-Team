@@ -1,0 +1,8 @@
+svg {
+  background: white;
+}
+
+#nyc-zipcodes path {
+  stroke: gray;
+  stroke-width: 1px;
+}
